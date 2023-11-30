@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Annotation profile for system" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/Devel_JavaWeb/repository/org/mapstruct/mapstruct-processor/1.4.1.Final/mapstruct-processor-1.4.1.Final.jar" />
+          <entry name="D:/Devel_JavaWeb/repository/org/mapstruct/mapstruct/1.4.1.Final/mapstruct-1.4.1.Final.jar" />
+          <entry name="D:/Devel_JavaWeb/repository/org/projectlombok/lombok/1.16.14/lombok-1.16.14.jar" />
+        </processorPath>
+        <module name="xwk-manage" />
+        <module name="ranranback" />
+        <module name="manage" />
+        <module name="back" />
+        <module name="smartsystem_ssm_vue" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="generator" target="1.8" />
+      <module name="smart-admin" target="1.8" />
+      <module name="smart-common" target="1.8" />
+      <module name="smart-framework" target="1.8" />
+      <module name="smart-modules" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
